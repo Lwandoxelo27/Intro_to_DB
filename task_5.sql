@@ -9,6 +9,3 @@ To run this script, save it as task_5.sql and execute:
 
 bash
 mysql -u your_username -pyour_password -D alx_book_store < task_5.sql
-
-Replace 'your_username' and 'your_password' with your actual MySQL credentials.
-
