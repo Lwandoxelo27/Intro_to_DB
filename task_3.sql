@@ -8,3 +8,4 @@ To run this script and list all tables in the alx_book_store database, use the f
 
 bash
 mysql -u your_username -pyour_password -D alx_book_store < task_3.sql
+["USE alx_book_store;"]
