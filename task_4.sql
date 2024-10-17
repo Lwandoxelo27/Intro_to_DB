@@ -4,6 +4,7 @@ USE alx_book_store;
 
 SELECT
 COLUMN_NAME,
+COLUMN_TYPE,
 DATA_TYPE,
 CHARACTER_MAXIMUM_LENGTH,
 NUMERIC_PRECISION,
@@ -12,7 +13,8 @@ IS_NULLABLE
 FROM
 INFORMATION_SCHEMA.COLUMNS
 WHERE
-TABLE_NAME = 'books';
+TABLE_NAME = 'Books';
+TABLE_SCHEMA = 'alx_book_store',
 
 To run this script, save it as task_4.sql and execute:
 
